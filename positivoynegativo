@@ -1,0 +1,14 @@
+
+variable=10
+numero=0
+i=1
+contador=0
+while contador<variable:
+    numero=int(input())
+    if numero>0:
+        print("Es positivo")
+    elif numero<0:
+        print("Es negativo")
+    elif numero==0:
+        print("Es null")
+    contador+=1
